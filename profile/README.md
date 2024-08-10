@@ -6,6 +6,7 @@ The project focuses exclusively on the hardware, while the open-source software 
 
 Currently, the hardware is only available for the Valve Index, but additional headsets may be supported in the future depending on demand.
 <br/><br/>
+<br/><br/>
 
 ## Quicklinks:
   + Everything you need: [Project Website](TBD)
