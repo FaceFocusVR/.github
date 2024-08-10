@@ -6,7 +6,8 @@
 TBD
 
 ## Quicklinks:
-  + TBD[test](https://github.com/FaceFocusVR/Valve-Index)
+  + [Shop](https://github.com/FaceFocusVR/Valve-Index)
+  + [Valve-Index](Valve-Index)
 
 
 
