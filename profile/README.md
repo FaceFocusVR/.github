@@ -5,7 +5,6 @@ FaceFocusVR is a project I developed to offer a clean plug-and-play solution for
 The project focuses exclusively on the hardware, while the open-source software I use for eye and face tracking is linked below.
 
 Currently, the hardware is only available for the Valve Index, but additional headsets may be supported in the future depending on demand.
-
 <br/><br/>
 
 ## Quicklinks:
