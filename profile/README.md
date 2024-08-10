@@ -3,8 +3,8 @@
 TBD
 
 ## Quicklinks:
-  + [Project website](TBD)
-  + [Shop](TBD)
+  + Everything you need: [Project website](TBD)
+  + Buy FaceFocusVR Hardware: [Shop](TBD)
   + [Discord](TBD)
 
 ### Hardware:
