@@ -20,7 +20,7 @@ Currently, the hardware is only available for the Valve Index, but additional he
   + During the project, I also noticed that I wanted to add a connection for a fan and a USB port that could be used, for example, for low-power Bluetooth LE sticks. Additionally, I have developed PCBs and 3D models to make the attachment of the IR LEDs and camera to the lens easier.
 
 ### Goal:
-My goal with the project is to contribute to the broader adoption of face tracking and, especially, eye tracking. Both technologies offer immense potential in social VR experiences and technical areas like foveated rendering.
+My goal with the project is to contribute to the broader adoption of face tracking and, especially, eye tracking. In my opinion Both technologies offer immense potential in social VR experiences and technical areas like foveated rendering, improving the use of VR in almost every imaginable way.
 <br/><br/>
 
 ## Why only for Index?:
