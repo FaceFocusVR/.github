@@ -1,4 +1,4 @@
-# How To Get FaceFocusVR
+# How to get FaceFocusVR
 There are two ways to get FaceFocusVR hardware.
 <br/><br/>
 
