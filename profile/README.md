@@ -9,7 +9,7 @@ Currently, the hardware is only available for the Valve Index, but additional he
 
 ## Quicklinks:
   + Everything you need: [Project Website](TBD)
-  + Buy FaceFocusVR Hardware: [How To Buy](TBD)
+  + Buy FaceFocusVR Hardware: [How To Buy](https://github.com/FaceFocusVR/.github/blob/main/README_BUY.md)
   + Need Support?: [Discord](TBD)
 
 ### Hardware + Instructions:
