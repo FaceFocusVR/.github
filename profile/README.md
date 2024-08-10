@@ -13,6 +13,10 @@ Currently, the hardware is only available for the Valve Index, but additional he
   + Need Support?: [Discord](TBD)
 
 
+## Basic technical stuff:
+sndgkjnbsdfljgnd
+
+
 ## Thank you:
 
 ### Software:
