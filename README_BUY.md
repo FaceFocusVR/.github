@@ -1,5 +1,5 @@
 # HOW TO BUY
-<br/><br/>
+
 
 ## Shop:
   + The easiest way is to purchase a kit from my shop. Since I order in larger quantities, this is also the way cheaper option.
