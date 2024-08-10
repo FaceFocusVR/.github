@@ -3,7 +3,7 @@ There are two ways to get FaceFocusVR hardware.
 <br/><br/>
 
 ## 1. Buy:
-  + The easiest way is to purchase a kit from my shop. Since I order in larger quantities, this is also the way cheaper option.
+  + The easiest way is to purchase a kit from my shop. Since I order in larger quantities, this is also (for most) the way cheaper option.
   + [Shop](TBD)
 
 ### Limitation:
