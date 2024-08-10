@@ -12,6 +12,9 @@ Currently, the hardware is only available for the Valve Index, but additional he
   + Get FaceFocusVR Hardware: [How To Buy/DIY](https://github.com/FaceFocusVR/.github/blob/main/README_BUY.md)
   + Need Support?: [Discord](TBD)
 
+
+## Thank you:
+
 ### Software:
   + Eye Tracking: [EyeTrackVR](https://github.com/EyeTrackVR/EyeTrackVR)
   + Face Tracking: [Project Babble](https://github.com/Project-Babble)
