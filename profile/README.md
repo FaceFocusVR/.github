@@ -6,10 +6,9 @@
 TBD
 
 ## Quicklinks:
-  + [Shop](https://github.com/FaceFocusVR/Valve-Index)
-  + [Valve-Index](Valve-Index)
+  + [Project website](TBD)
+  + [Shop](TBD)
+  + [Discord](TBD)
 
-
-
-## Discord
-TBD
+### Hardware:
+  + [Valve-Index](https://github.com/FaceFocusVR/Valve-Index)
