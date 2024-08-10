@@ -9,8 +9,8 @@ There are two ways to get FaceFocusVR hardware.
 
 ### Limitation:
   + Currently, I can only offer shipping within the EU, as international shipping requires more preparation (such as customs handling). This will likely change in the future, but I can't make any promises at the         moment.
-  + Here is a link to a survey to see the interest in international shipping. Please only participate if you have a genuine interest.
-  + [Survey](TBD)
+  + Here is a link to a query to see the interest in international shipping. Please only participate if you have a genuine interest.
+  + [Query](TBD)
 <br/><br/>
 
 ## 2. DIY:
