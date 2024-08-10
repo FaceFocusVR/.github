@@ -7,7 +7,7 @@ TBD
   + Buy FaceFocusVR Hardware: [Shop](TBD)
   + Need Support?: [Discord](TBD)
 
-### Hardware:
+### Hardware + Instructions:
   + [Valve-Index](https://github.com/FaceFocusVR/Valve-Index)
 
 ### Software:
