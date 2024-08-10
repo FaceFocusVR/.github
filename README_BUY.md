@@ -16,4 +16,4 @@ There are two ways to get FaceFocusVR hardware.
 ## 2. DIY:
   + The FaceFocusVR project is open-source, therefore I have released all the files for the PCBs, as well as all the schematics, 3D parts, Production Files and everything else related to the project.
   + Since the PCBs are very complex, the only realistic way to obtain them is to have them assembled by a PCBA service. I use JLCPCB.
-  + [DIY Instructions](TBD)
+  + [DIY Instructions](https://github.com/FaceFocusVR/.github/blob/main/README_DIY_Instructions.md)
