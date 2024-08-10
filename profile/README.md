@@ -1,6 +1,6 @@
 # FaceFocusVR
 
-FaceFocusVR is a project I developed to offer a plug-and-play solution for retrofitting eye and face tracking to existing VR headsets.
+FaceFocusVR is a project I developed to offer a clean plug-and-play solution for retrofitting eye and face tracking to existing VR headsets.
 
 The project focuses exclusively on the hardware, while the open-source software for eye and face tracking is linked below.
 
