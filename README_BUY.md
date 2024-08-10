@@ -10,4 +10,9 @@ There are two ways to get FaceFocusVR hardware.
 
 
 ## Shop:
-  + [Valve-Index](https://github.com/FaceFocusVR/Valve-Index)
+  + The easiest way is to purchase a kit from my shop. Since I order in larger quantities, this is also the way cheaper option.
+  + In about 1-2 months, there will also be an option to purchase all the components individually.
+  + [Shop] (TBD)
+
+### Limitation:
+  + 
