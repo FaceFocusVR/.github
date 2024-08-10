@@ -4,7 +4,7 @@
 ## Shop:
   + The easiest way is to purchase a kit from my shop. Since I order in larger quantities, this is also the way cheaper option.
   + In about 1-2 months, there will also be an option to purchase all the components individually.
-  + Buy FaceFocusVR Hardware: [Shop](TBD)
+  + [Shop](TBD)
 
 ### Limitation:
   + Currently, I can only offer shipping within the EU, as international shipping requires more preparation (such as customs handling). This will likely change in the future, but I can't make any promises at the         moment.
