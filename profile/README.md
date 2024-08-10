@@ -19,7 +19,15 @@ Currently, the hardware is only available for the Valve Index, but additional he
   + Since I did not like this approach, my goal was to develop a mainboard that integrates all the hardware for eye and face tracking. This includes three ESP32-S2R8s, a USB hub, and a way to safely power the IR LEDs used to illuminate the eyes and face.
   + During the project, I also noticed that I wanted to add a connection for a fan and a USB port that could be used, for example, for low-power Bluetooth LE sticks. Additionally, I have developed PCBs and 3D models to make the attachment of the IR LEDs and camera to the lens easier.
 
-Basic technic
+
+## Why only for Index?:
+  + The Index is the headset I have and use. It is also very popular and, due to its size, offers the possibility to accommodate the necessary hardware relatively efficiently.
+
+  + I won’t rule out the possibility of developing solutions for other headsets in the future, such as the Bigscreen Beyond or a wireless version for the Quest. However, due to its small size, the Beyond presents an even greater challenge. Additionally, I don’t have any     other headsets and would need to acquire them first, which would be a significant investment.
+
+  + Therefore, the hardware is currently available only for the Index. But you never know what the future might bring.
+
+
 
 ## Thank you:
 
