@@ -13,6 +13,11 @@ Currently, the hardware is only available for the Valve Index, but additional he
   + Need Support?: [Discord](TBD)
 <br/><br/>
 
+## News:
+  + Welcome :)
+
+
+
 ## Why FaceFocusVR?:
   + The current approach for adding face tracking and eye tracking to most headsets involves attaching multiple ESP32s, such as the Seeed Xiao ESP32-S3 Sense, and a USB hub to the headset. Alternatively, you can disassemble an existing USB hub and attempt to solder the        ESP32s directly onto the hub to save space.
     
