@@ -34,7 +34,7 @@ My goal with the project is to contribute to the broader adoption of face tracki
   + I won’t rule out the possibility of developing solutions for other headsets in the future, such as the Bigscreen Beyond or a wireless version for the Quest. However, due to its small size, the Beyond presents an even greater challenge. Additionally, I don’t have any     other headsets and would need to acquire them first, which would be a significant investment.
 
   + Therefore, the hardware is currently only available for the Index. But you never know what the future might bring.
-
+<br/><br/>
 
 
 ## Thank you:
