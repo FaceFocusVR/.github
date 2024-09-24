@@ -15,7 +15,7 @@ Currently, the hardware is only available for the Valve Index, but additional he
 
 ## News:
   + Welcome :)
-
+<br/><br/>
 
 
 ## Why FaceFocusVR?:
