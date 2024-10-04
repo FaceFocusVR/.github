@@ -22,6 +22,7 @@ Currently, the hardware is only available for the Valve Index, but additional he
   + The current approach for adding face tracking and eye tracking to most headsets involves attaching multiple ESP32s, such as the Seeed Xiao ESP32-S3 Sense, and a USB hub to the headset. Alternatively, you can disassemble an existing USB hub and attempt to solder the        ESP32s directly onto the hub to save space.
     
   + Since I did not like this approach, my goal was to develop a mainboard that integrates all the hardware for eye and face tracking. This includes three ESP32-S2R8s, a USB hub, and a way to safely power the IR LEDs used to illuminate the eyes and face.
+    
   + During the project, I also noticed that I wanted to add a connection for a fan and a USB port that could be used, for example, for low-power Bluetooth LE sticks. Additionally, I have developed PCBs and 3D models to make the attachment of the IR LEDs and camera to the lens easier.
 
 ### Goal:
@@ -30,16 +31,17 @@ My goal with the project is to contribute to the broader adoption of face tracki
 
 ## Why only for Index?:
   + The Index is the headset I have and use. It is also very popular and, due to its size, offers the possibility to accommodate the necessary hardware relatively efficiently.
-
+    
   + I won’t rule out the possibility of developing solutions for other headsets in the future, such as the Bigscreen Beyond or a wireless version for the Quest. However, due to its small size, the Beyond presents an even greater challenge. Additionally, I don’t have any     other headsets and would need to acquire them first, which would be a significant investment.
-
+    
   + Therefore, the hardware is currently only available for the Index. But you never know what the future might bring.
 <br/><br/>
 
 ## Is it safe?:
   + Short version: No system is 100% secure, but I’ve done everything possible to protect both the hardware where the mainboard is installed, the mainboard itself, and of course, your eyes.
-
-
+    
+  * Detailed explanation of the technical safety features: Safety
+<br/><br/>
 
 ## Thank you:
 
