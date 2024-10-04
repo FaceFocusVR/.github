@@ -36,6 +36,10 @@ My goal with the project is to contribute to the broader adoption of face tracki
   + Therefore, the hardware is currently only available for the Index. But you never know what the future might bring.
 <br/><br/>
 
+## Is it safe?:
+  + Short version: No system is 100% secure, but I’ve done everything possible to protect both the hardware where the mainboard is installed, the mainboard itself, and of course, your eyes.
+
+
 
 ## Thank you:
 
