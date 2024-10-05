@@ -1,18 +1,27 @@
 # Safety
 
-No system is 100% secure, but I’ve done everything possible to protect both the hardware where the mainboard is installed, the mainboard itself, and of course, your eyes.
+**I have tried to make FaceFokusVR as safe as possible, but I do not take responsibility for any damage incurred by the use of it.**
 
-Do not attempt to replace, repair, or disable any safety-related circuits or components yourself! Although we are exposed to infrared radiation daily, it can be harmful in excessive doses!
+_Even if you're not completely sure but think there might be an issue with the calculations, circuitry, or anything else, please don’t hesitate to contact me!_
+<br/><br/>
 
-Even though I check each IR LED on kits that i sell, the risk of use lies with the user. The safety measures are designed to REDUCE potential failure risks, but all further safety responsibilities fall on the user. This includes ensuring you do not feel warmth, excessive eye strain, or experience short-term effects like dark spots or dry/warm eyes during use.
+  + No system is 100% secure! However, I have implemented multiple safety mechanisms to ensure the IR LEDs emit only limited radiation, well below the limits established by recognized studies on safe exposure levels.
 
-**I have tried to make FaceFokusVR as safe as possible, but I do not take responsibility for any damage incurred.**
+  + Do not attempt to replace, repair, or disable any safety-related circuits or components yourself! Although we are exposed to infrared radiation daily, it can be harmful in excessive doses!
+
++ While I thoroughly check each IR LED in the kits I sell, the responsibility for safe usage ultimately lies with the user. Please pay attention to the following:
+  + If you feel any warmth on your eys during use, take a break and assess the situation.<sup>1</sup>
+  + If you experience excessive eye strain or short-term effects like dark spots or dry/warm eyes, stop using the product immediately.
+
+<br/><br/>
+<sup>1</sup> I have heard from several users of VR headsets with native eye tracking that their eyes feel warmer after extended use. Therefore, a slight warming could be normal; however, I cannot provide any further details on the matter, as I have not found any conclusive data on this. I can only share all the information I have.
 <br/><br/>
 
 ## Basics
   + The safety measures and calculations are primarily based on the guidelines provided by the EYETrackVr team. However, I have independently verified and expanded upon these measures, offering a more detailed explanation of the protective measures implemented to meet the requirements. You can find the safety guidelines from the EYETrackVr team here: [IR Emitter Safety / EyeTrackVR](https://docs.eyetrackvr.dev/getting_started/led_safety)
 
   + Infrared (IR) radiation is used in eye-tracking systems to illuminate the eye without being visible to the human eye. IR radiation is measured in terms of irradiance, which quantifies the power of radiation over a specific area (measured in mW/cm²). For safety, it’s important to keep irradiance levels below recommended limits, as excessive exposure can lead to thermal damage to the cornea and long-term risks like cataracts. IR light can also cause discomfort or strain if too intense, which is why it is essential to calculate safe exposure levels, considering both the power of the LEDs and their distance from the eye.
+
 
 
 ### EN 62471
