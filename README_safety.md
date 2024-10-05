@@ -69,6 +69,20 @@ $$
 
 
 
+## Calculations
+### Datasheet
+
+The following can be extracted from the LED datasheet:
+
+**Radiation Intensity:** Min 3, Max 8 mW/sr  
+I choose 8 mW/sr as it represents the worst-case scenario, indicating the maximum output of the LED. This means that the LED emits 8 milliwatts of optical power per steradian when operated at a forward current of 20 mA. Since the LED is limited to 2.4 mA due to the board design, and the datasheet indicates that the radiation intensity decreases linearly, we can calculate the adjusted radiation intensity as follows:
+
+  $$
+  \text{Adjusted Radiation Intensity} = \left( \frac{8 \, \text{mW/sr} \times 2.4 \, \text{mA}}{20 \, \text{mA}} \right) = 0.96 \, \text{mW/sr}
+  $$
+  
+**Half Light Angle:** 120 Degrees  
+This indicates that the LED radiates light within a cone of 120 degrees. The half light angle is the angle at which the emitted intensity falls to half of its maximum value. A wider angle provides broader illumination, making the LED suitable for applications requiring diffuse lighting.
 
 
 
