@@ -1,6 +1,6 @@
 # Safety
 
-**I have tried to make FaceFokusVR as safe as possible, but I do not take responsibility for any damage incurred by the use of it.**
+**I have tried Everything I can to make FaceFokusVR as safe as possible, but I do not take responsibility for any damage incurred by the use of it.**
 
 _Even if you're not completely sure but think there might be an issue with my calculations, circuitry, or anything else, please don’t hesitate to contact me!_
 <br/><br/>
