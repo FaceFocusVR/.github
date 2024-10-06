@@ -27,7 +27,7 @@ _Even if you're not completely sure but think there might be an issue with the c
 
 
 ## Basics
-  + The safety measures and calculations are primarily based on the guidelines provided by the EYETrackVr team. However, I have independently verified and expanded upon these measures, offering a more detailed explanation of the protective measures implemented to meet the requirements. You can find the safety guidelines from the EYETrackVr team here: [IR Emitter Safety / EyeTrackVR](https://docs.eyetrackvr.dev/getting_started/led_safety)
+  + The safety measures are primarily based on the guidelines provided by the EYETrackVr team. However, I have independently verified and expanded upon these measures, offering a more detailed explanation of the protective measures implemented to meet the requirements. You can find the safety guidelines from the EYETrackVr team here: [IR Emitter Safety / EyeTrackVR](https://docs.eyetrackvr.dev/getting_started/led_safety)
 
   + Infrared (IR) radiation is used in eye-tracking systems to illuminate the eye without being visible to the human eye. IR radiation is measured in terms of irradiance, which quantifies the power of radiation over a specific area (measured in mW/cm²). For safety, it’s important to keep irradiance levels below recommended limits, as excessive exposure can lead to thermal damage to the cornea and long-term risks like cataracts. IR light can also cause discomfort or strain if too intense, which is why it is essential to calculate safe exposure levels, considering both the power of the LEDs and their distance from the eye.
 
