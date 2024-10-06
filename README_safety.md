@@ -64,6 +64,7 @@ $$
 E_{IR} \leq 100 \ \frac{\text{W}}{\text{m}^2} = 10 \ \frac{\text{mW}}{\text{cm}^2}  \quad\quad \text{ for } (t > 1000 \, \text{s})
 $$
 
+<br/><br/>
 
 
 
@@ -75,17 +76,81 @@ $$
 The following can be extracted from the LED datasheet:
 
 **Radiation Intensity:** Min 3, Max 8 mW/sr  
-I choose 8 mW/sr as it represents the worst-case scenario, indicating the maximum output of the LED. This means that the LED emits 8 milliwatts of optical power per steradian when operated at a forward current of 20 mA. Since the LED is limited to 2.4 mA due to the board design, and the datasheet indicates that the radiation intensity decreases linearly, we can calculate the adjusted radiation intensity as follows:
+I choose 8 mW/sr as it represents the worst-case scenario, indicating the maximum output of the LED. This means that the LED emits 8 milliwatts of optical power per steradian<sup>2</sup> when operated at a forward current of 20 mA. Since the LED is limited to 2.4 mA due to the board design, and the datasheet indicates that the radiation intensity decreases linearly, we can calculate the adjusted radiation intensity as follows:
 
   $$
   \text{Adjusted Radiation Intensity} = \left( \frac{8 \, \text{mW/sr} \times 2.4 \, \text{mA}}{20 \, \text{mA}} \right) = 0.96 \, \text{mW/sr}
   $$
-  
+
+  <br/><br/>
 **Half Light Angle:** 120 Degrees  
 This indicates that the LED radiates light within a cone of 120 degrees. The half light angle is the angle at which the emitted intensity falls to half of its maximum value. A wider angle provides broader illumination, making the LED suitable for applications requiring diffuse lighting.
+<br/><br/>
 
+<sup>2</sup> A steradian is a unit used to measure angles in three-dimensional space, similar to how a radian measures angles in a circle.
+<br/><br/>
 
+### Solid Angle and Illuminated Area
+Currently, we only have a value indicating the LED's power output within a 120-degree cone. To calculate the power per unit area specifically at the eye, we need two additional parameters: the size of the illuminated area and the distance from the light source.
 
+To determine the illuminated area, we need the "surface area" of the place where the light cone formed by the LED intersects with the eye, which varies based on the distance from the light source. This area can be calculated using the solid angle, which measures the three-dimensional space occupied by the light as it emanates from a point source, defined in steradians.
+<br/><br/>
+<br/><br/>
 
+To calculate the solid angle $$\(Ω\)$$ for a specific emission angle, we use the half angle $$\(θ\)$$.
 
+The given emission angle is $$\(120^\circ\)$$. Since we need the half angle for the calculation, we divide the emission angle by 2:
+
+$$
+θ = \frac{120^\circ}{2} = 60^\circ
+$$
+
+The formula for calculating the solid angle $$\(Ω\)$$ in steradians is:
+
+$$
+Ω = 2\pi \left(1 - \cos(θ)\right)
+$$
+
+Now we substitute the value for $$\(θ = 60^\circ\)$$ into the formula. First, we need to calculate the cosine of $$\(60^\circ\)$$, which is $$\(0.5\)$$:
+
+$$
+\cos(60^\circ) = 0.5
+$$
+
+Now we insert this value into the formula:
+
+$$
+Ω = 2\pi \left(1 - \cos(60^\circ)\right) = 2\pi \left(1 - 0.5\right)
+$$
+
+Next, we simplify the calculation:
+
+$$
+Ω = 2\pi \times 0.5 = \pi \ \text{[sr]}
+$$
+
+<br/><br/>
+<br/><br/>
+The area $$\(A\)$$ onto which the light from an LED is distributed at a certain distance $$\(r\)$$ can be calculated using the following formula:
+
+$$
+A = r^2 \cdot Ω
+$$
+
+<br/><br/>
+We have already calculated the solid angle \(Ω\) for the emission angle of $$\(120^\circ\)$$, which is $$\(π \ \text{[sr]}\)$$.
+
+A distance between the eye and the LED of r = 1 cm is assumed, but even 0.5 cm meets the standards.
+
+Now we calculate the area:
+
+$$
+A = 1 \, \text{cm}^2 \cdot π
+$$
+
+Since \(π \approx 3.14\), we get:
+
+$$
+A \approx 1 \cdot 3.14 \, \text{cm}^2 \approx 3.14 \, \text{cm}^2
+$$
 
