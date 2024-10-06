@@ -125,7 +125,7 @@ The following can be extracted from the [LED datasheet](https://www.lcsc.com/dat
 I choose 8 $$\frac{\text{mW}}{\text{sr}}$$ as it represents the worst-case scenario, indicating the maximum output of the LED. This means that the LED emits 8 milliwatts of optical power per steradian<sup>2</sup> when operated at a forward current of 20 mA. Since the LED is limited to 2.4 mA due to the board design, and the datasheet indicates that the radiation intensity decreases linearly, we can calculate the adjusted radiation intensity as follows:
 
   $$
-  \text{Adjusted Radiation Intensity} = \frac{8 \ \frac{\text{mW}}{\text{sr}} \times 2.4 \ \text{mA}}{20 \ \text{mA}} = 0.96 \ \frac{\text{mW}}{\text{sr}}}
+  \text{Adjusted Radiation Intensity} = \frac{8 \ \frac{\text{mW}}{\text{sr}} \times 2.4 \ \text{mA}}{20 \ \text{mA}} = 0.96 \ \frac{\text{mW}}{\text{sr}}
   $$
 
   <br/><br/>
