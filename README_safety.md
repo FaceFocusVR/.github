@@ -49,7 +49,7 @@ Regarding harmful exposure limits for infrared radiation with wavelengths rangin
   > + For times greater than **1000 s**, the limit becomes:
   > 
   > $$
-  > E_{IR} = \sum_{780}^{3000} E_{\lambda} \cdot \Delta \lambda \leq 100 \ \quad\quad [\frac{\text{W}}{\text{m}^2}] \quad \quad \text{for } (t > 1000 \ \text{s})
+  > E_{IR} = \sum_{780}^{3000} E_{\lambda} \times \Delta \lambda \leq 100 \ \quad\quad [\frac{\text{W}}{\text{m}^2}] \quad \quad \text{for } (t > 1000 \ \text{s})
   > $$
   > 
   > Where:
@@ -82,7 +82,7 @@ The 2013 paper can be found here: [Visible_Infrared_2013](https://www.icnirp.org
 >To avoid thermal injury of the cornea and possible delayed effects on the lens of the eye (cataractogenesis), infrared irradiance $$E_{IR}$$ in the wavelength range of 780 nm–3 μm (eqn 19) should be limited by the exposure limits $$E_{IR}^{EL}$$ given in eqns (20) and (21):
 >
 >$$
->E_{IR} = \sum_{780}^{1000} 0.3 \cdot E_{\lambda} + \sum_{1000}^{3000} E_{\lambda}
+>E_{IR} = \sum_{780}^{1000} 0.3 \times E_{\lambda} + \sum_{1000}^{3000} E_{\lambda}
 >\quad\quad \text{(19)}
 >$$
 >
@@ -125,7 +125,7 @@ The following can be extracted from the [LED datasheet](https://www.lcsc.com/dat
 I choose 8 mW/sr as it represents the worst-case scenario, indicating the maximum output of the LED. This means that the LED emits 8 milliwatts of optical power per steradian<sup>2</sup> when operated at a forward current of 20 mA. Since the LED is limited to 2.4 mA due to the board design, and the datasheet indicates that the radiation intensity decreases linearly, we can calculate the adjusted radiation intensity as follows:
 
   $$
-  \text{Adjusted Radiation Intensity} = \left( \frac{8 \ \text{mW/sr} \times 2.4 \ \text{mA}}{20 \ \text{mA}} \right) = 0.96 \ \text{mW/sr}
+  \text{Adjusted Radiation Intensity} = \frac{8 \ \frac{\text{mW}}{\text{sr}} \times 2.4 \ \text{mA}}{20 \ \text{mA}} = 0.96 \ \text{mW/sr}
   $$
 
   <br/><br/>
@@ -187,7 +187,7 @@ $$
 The area $$\(A\)$$ onto which the light from an LED is distributed at a certain distance $$\(r\)$$ can be calculated using the following formula:
 
 $$
-A = r^2 \cdot Ω
+A = r^2 \times Ω
 $$
 
 <br/><br/>
@@ -198,11 +198,11 @@ A distance between the eye and the LED of r = 1 cm is assumed, but even 0.5 cm m
 Now we calculate the area:
 
 $$
-A = 1 \, \text{cm}^2 \cdot π
+A = 1 \, \text{cm}^2 \times π
 $$
 
 $$
-A \approx 1 \cdot 3.14 \ \text{cm}^2 \approx 3.14 \ \text{cm}^2
+A \approx 1 \times 3.14 \ \text{cm}^2 \approx 3.14 \ \text{cm}^2
 $$
 
 <br/><br/>
@@ -230,35 +230,54 @@ However, in my calculations, I do not scale the radiation. Instead, I consider t
 
 ### Irradiance (Power Density)
 
-Now we can convert the adjusted radiation intensity from mW/sr to mW/cm²:
+Now we can convert the adjusted radiation intensity from $$\frac{\text{mW}}{\text{sr}}$$ to $$\frac{\text{mW}}{\text{cm}^2}$$:
 
-The power density in mW/cm² can be calculated using the formula:
+The power density in $$\frac{\text{mW}}{\text{cm}^2}$$ can be calculated using the formula:
 
 $$
-\text{Power Density} \ \text{[mW/cm}^2] = \frac{\text{Adjusted Radiation Intensity} \ \text{[mW/sr]}}{A \ \text{[cm}^2]}
+\text{Power Density} \ [\frac{\text{mW}}{\text{cm}^2}] = \frac{\text{Adjusted Radiation Intensity} \ [\frac{\text{mW}}{\text{sr}}]}{A \ \text{[cm}^2]}
 $$
 
 Now, substituting the given values into the formula:
 
 $$
-\text{Power Density} \ (\text{mW/cm}^2) = \frac{0.96 \ \text{mW/sr}}{3.14 \ \text{cm}^2}
+\text{Power Density} \ = \frac{0.96 \ \frac{\text{mW}}{\text{sr}}}{3.14 \ \text{cm}^2}
 $$
 
 Now, calculate the value:
 
 $$
-\text{Power Density} \approx \frac{0.96}{3.14} \approx 0.305 \ \text{mW/cm}^2
+\text{Power Density} \approx \frac{0.96}{3.14} \approx 0.305 \ \frac{\text{mW}}{\text{cm}^2}
 $$
 
 Since four LEDs are used on each eye, this result must be multiplied by four.
 
 $$
-\text{Total Power Density} = 0.305 \ \text{mW/cm}^2 \times 4 \approx 1.22 \ \text{mW/cm}^2
+\text{Total Power Density} = 0.305 \ \frac{\text{mW}}{\text{cm}^2} \times 4 \approx 1.22 \ \frac{\text{mW}}{\text{cm}^2}
 $$
 
 <br/><br/>
 
 ## Result
-If the LEDs are 1 cm away from your eye, the radiation they emit is 1.22 mW/cm², which is well below the maximum limit of 10 mW/cm². Even if the distance were halved (which is not physically possible) and the LEDs were 0.5 cm away, the radiation would increase to 4.88 mW/cm², still half of the limit.
+If the LEDs are 1 cm away from your eye, the radiation they emit is 1.22 $$\frac{\text{mW}}{\text{cm}^2}$$, which is well below the maximum limit of 10 $$\frac{\text{mW}}{\text{cm}^2}$$. Even if the distance were halved (which is not physically possible) and the LEDs were 0.5 cm away, the radiation would increase to 4.88 $$\frac{\text{mW}}{\text{cm}^2}$$, still half the limit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
