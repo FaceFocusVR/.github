@@ -162,7 +162,7 @@ A \approx 1 \cdot 3.14 \ \text{cm}^2 \approx 3.14 \ \text{cm}^2
 $$
 
 <br/><br/>
-These 3.14 cm² describe the area that the IR radiation covers at a distance of 1 cm from the LED, independent of the size of the eye. Since the LEDs are positioned on the outside of the eye, a significant portion of the radiation is already lost to the sides. Additionally, the surface area of the eye is much smaller than 3.14 cm². Consequently, the eye receives only a fraction of the radiation distributed over the 3.14 cm² area. However, since we are calculating based on the worst-case scenario, we will use the entire area for our calculations.
+These 3.14 cm² describe the area that the IR radiation covers at a distance of 1 cm from the LED, independent of the size of the eye. Since the LEDs are positioned on the outside of the eye, a significant portion of the radiation is already lost to the sides. Additionally, the surface area of the eye is much smaller than 3.14 cm². Consequently, the eye receives only a fraction of the radiation distributed over the 3.14 cm² area.
 
 If you've been paying attention, you might wonder: Why don't I use the smaller area that hits the eye, which would result in a much higher calculated power per cm² and could potentially exceed safe limits?
 
