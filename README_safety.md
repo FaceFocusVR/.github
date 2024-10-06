@@ -9,7 +9,7 @@ _Even if you're not completely sure but think there might be an issue with my ca
 
   + Do not attempt to replace, repair, or disable any safety-related circuits or components yourself! Although we are exposed to infrared radiation daily, it can be harmful in excessive doses!
 
-+ While I thoroughly check each IR LED in the kits I sell, the responsibility for safe usage ultimately lies with the user. Please pay attention to the following:
++ While I thoroughly check each IR LED I sell, the responsibility for safe usage ultimately lies with the user. Please pay attention to the following:
   + If you feel any warmth on your eys during use, take a break and assess the situation.<sup>1</sup>
   + If you experience excessive eye strain or short-term effects like dark spots or dry/warm eyes, stop immediately.
 
