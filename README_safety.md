@@ -66,12 +66,42 @@ $$
 
 <br/><br/>
 
+### ICNIRP
+ICNIRP, the International Commission on Non-Ionizing Radiation Protection, is an independent organization that provides scientific advice and guidance on the health and environmental effects of non-ionizing radiation, including infrared radiation.
+
+They published a paper in 2006 and another in 2013 that deal with the impact and limits of exposure.
+
+The 2006 paper can be found here: [ICNIRPinfrared](https://www.icnirp.org/cms/upload/publications/ICNIRPinfrared.pdf). The relevant section is located on page 639 or, in the document, on page 11, in formula 4b.
+
+
+> To avoid thermal injury of the cornea and possible delayed effects on the lens of the eye (cataractogenesis), infrared radiation (770 nm ≤ λ ≤ 3 μm) should be limited to **100 W/m²** (10 mW/cm²) for lengthy exposures (t ≥ 1,000 s).
+<br/><br/>
+
+The 2013 paper can be found here: [Visible_Infrared_2013](https://www.icnirp.org/cms/upload/publications/ICNIRPVisible_Infrared2013.pdf). The specific quote is on page 88, or in the document, on page 18, in formula 21.
+
+>To avoid thermal injury of the cornea and possible delayed effects on the lens of the eye (cataractogenesis), infrared irradiance $$E_{IR}$$ in the wavelength range of 780 nm–3 μm (eqn 19) should be limited by the exposure limits $$E_{IR}^{EL}$$ given in eqns (20) and (21):
+>
+>$$
+>E_{IR} = \sum_{780}^{1000} 0.3 \cdot E_{\lambda} + \sum_{1000}^{3000} E_{\lambda}
+>\quad\quad \text{(19)}
+>$$
+>
+>$$
+>E_{IR}^{EL} = 18 \times t^{-0.75} \times 10^3 \ \frac{\text{W}}{\text{m}^2} \quad \text{for} \ t < 1000 \ \text{s}
+>\quad\quad \text{(20)}
+>$$
+>
+>$$
+>E_{IR}^{EL} = 100 \ \frac{\text{W}}{\text{m}^2} = 10 \ \frac{\text{mW}}{\text{cm}^2} \quad \text{for} \ t \geq 1000 \ \text{s}
+>\quad\quad \text{(21)}
+>$$
 
 
 
 
 
-
+<br/><br/>
+<br/><br/>
 ## Calculations
 ### Datasheet
 
