@@ -70,6 +70,8 @@ $$
 
 
 
+
+
 ## Calculations
 ### Datasheet
 
@@ -89,6 +91,13 @@ This indicates that the LED radiates light within a cone of 120 degrees. The hal
 
 <sup>2</sup> A steradian is a unit used to measure angles in three-dimensional space, similar to how a radian measures angles in a circle.
 <br/><br/>
+<br/><br/>
+<br/><br/>
+
+
+
+
+
 
 ### Solid Angle and Illuminated Area
 Currently, we only have a value indicating the LED's power output within a 120-degree cone. To calculate the power per unit area specifically at the eye, we need two additional parameters: the size of the illuminated area and the distance from the light source.
@@ -162,3 +171,50 @@ While this is a valid point, it only holds true when considering distance. At sh
 However, in my calculations, I do not scale the radiation. Instead, I consider the total area of 3.14 cm², from which only a small fraction actually reaches the eye. For example, only about 0.14 cm² may illuminate the eye, while the remaining area dissipates into the environment. If I were to calculate using just 0.14 cm², it would inaccurately suggest that all the radiation concentrates on that small area, overlooking the significant portion that is lost.
 <br/><br/>
 <br/><br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Irradiance (Power Density)
+
+Now we can convert the adjusted radiation intensity from mW/sr to mW/cm²:
+
+The power density in mW/cm² can be calculated using the formula:
+
+$$
+\text{Power Density} \ \text{[mW/cm}^2] = \frac{\text{Adjusted Radiation Intensity} \ \text{[mW/sr]}}{A \ \text{[cm}^2]}
+$$
+
+Now, substituting the given values into the formula:
+
+$$
+\text{Power Density} \ (\text{mW/cm}^2) = \frac{0.96 \ \text{mW/sr}}{3.14 \ \text{cm}^2}
+$$
+
+Now, calculate the value:
+
+$$
+\text{Power Density} \approx \frac{0.96}{3.14} \approx 0.305 \ \text{mW/cm}^2
+$$
+
+Since four LEDs are used on each eye, this result must be multiplied by four.
+
+$$
+\text{Total Power Density} = 0.305 \ \text{mW/cm}^2 \times 4 \approx 1.22 \ \text{mW/cm}^2
+$$
+
+<br/><br/>
+
+## Result
+If the LEDs are 1 cm away from your eye, the radiation they emit is 1.22 mW/cm², which is well below the maximum limit of 10 mW/cm². Even if the distance were halved (which is not physically possible) and the LEDs were 0.5 cm away, the radiation would increase to 4.88 mW/cm², still half of the limit.
+
+
