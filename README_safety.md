@@ -2,7 +2,7 @@
 
 **I have tried to make FaceFokusVR as safe as possible, but I do not take responsibility for any damage incurred by the use of it.**
 
-_Even if you're not completely sure but think there might be an issue with the calculations, circuitry, or anything else, please don’t hesitate to contact me!_
+_Even if you're not completely sure but think there might be an issue with my calculations, circuitry, or anything else, please don’t hesitate to contact me!_
 <br/><br/>
 
   + No system is 100% secure! However, I have implemented multiple safety mechanisms to ensure the IR LEDs emit only limited radiation, well below the limits established by recognized studies on safe exposure levels.
