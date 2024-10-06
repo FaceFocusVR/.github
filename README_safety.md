@@ -29,7 +29,7 @@ _Even if you're not completely sure but think there might be an issue with my ca
 ## Basics
   + The safety measures I put in place are primarily based on the guidelines provided by the EYETrackVr team. However, I have independently verified and expanded upon these measures, offering a more detailed explanation of the protective measures implemented to meet the requirements. You can find the safety guidelines from the EYETrackVr team here: [IR Emitter Safety / EyeTrackVR](https://docs.eyetrackvr.dev/getting_started/led_safety)
 
-  + Infrared (IR) radiation is used in eye-tracking systems to illuminate the eye without being visible to the human eye. IR radiation is measured in terms of irradiance, which quantifies the power of radiation over a specific area (measured in mW/cm²). For safety, it’s important to keep irradiance levels below recommended limits, as excessive exposure can lead to thermal damage to the cornea and long-term risks like cataracts. IR light can also cause discomfort or strain if too intense, which is why it is essential to calculate safe exposure levels, considering both the power of the LEDs and their distance from the eye.
+  + Infrared (IR) radiation is used in eye-tracking systems to illuminate the eye without being visible to the human eye. IR radiation is measured in terms of irradiance, which quantifies the power of radiation over a specific area (measured in $$\frac{\text{mW}}{\text{cm}^2}$$). For safety, it’s important to keep irradiance levels below recommended limits, as excessive exposure can lead to thermal damage to the cornea and long-term risks like cataracts. IR light can also cause discomfort or strain if too intense, which is why it is essential to calculate safe exposure levels, considering both the power of the LEDs and their distance from the eye.
 
   + To establish a foundation and determine what constitutes a harmful exposure limit, I have referenced various studies, sources, and related materials. All of my sources (except for the standards, which are protected by copyright) are linked with page references in the respective sections.
 <br/><br/>
@@ -101,16 +101,16 @@ The 2013 paper can be found here: [Visible_Infrared_2013](https://www.icnirp.org
 ### Contextualization
 To better contextualize these values, I would like to provide some examples to serve as reference points.
 
-When outdoors and not looking directly at the sun, the eyes receive a radiation level between 0.1 and 1 mW/cm² (some studies even suggest values up to 10 mW/cm²). However, when looking directly at the sun, the value far exceeds 100 mW/cm².
+When outdoors and not looking directly at the sun, the eyes receive a radiation level between 0.1 and 1 $$\frac{\text{mW}}{\text{cm}^2}$$ (some studies even suggest values up to 10 $$\frac{\text{mW}}{\text{cm}^2}$$). However, when looking directly at the sun, the value far exceeds 100 $$\frac{\text{mW}}{\text{cm}^2}$$.
 
-Steel or glass workers operating near furnaces are exposed to radiation levels ranging from 80 to 400 mW/cm².
+Steel or glass workers operating near furnaces are exposed to radiation levels ranging from 80 to 400 $$\frac{\text{mW}}{\text{cm}^2}$$.
 
 Sources: [ICNIRPinfrared (Page 637)](https://www.icnirp.org/cms/upload/publications/ICNIRPinfrared.pdf); [Observing the Sun in Safety](https://adsabs.harvard.edu/full/1982JBAA...92..257M); [How to Tell if your Eye-Tracking IR Diode is Safe](https://blog.davidbramsay.com/how-to-tell-if-your-eye-tracking-ir-diode-is-safe/#:~:text=Roughly%2C%20background%20IR%20from%20sun,cm2%20for%20metal%20workers.);
 <br/><br/>
 
 All these values cannot be precisely determined, as they are influenced by countless uncontrollable factors, including temperature, pupil size, and many others.
 
-However, it is important that the intensity reaching the eyes remains far below 10 mW/cm², ideally as close as possible to the "normal" background IR radiation of approximately 1 mW/cm².
+However, it is important that the intensity reaching the eyes remains far below 10 $$\frac{\text{mW}}{\text{cm}^2}$$, ideally as close as possible to the "normal" background IR radiation of approximately 1 $$\frac{\text{mW}}{\text{cm}^2}$$.
 
 
 
@@ -121,11 +121,11 @@ However, it is important that the intensity reaching the eyes remains far below 
 
 The following can be extracted from the [LED datasheet](https://www.lcsc.com/datasheet/lcsc_datasheet_2402181504_XINGLIGHT-XL-3216HIRC-850_C965891.pdf):
 
-**Radiation Intensity:** Min 3, Max 8 mW/sr  
-I choose 8 mW/sr as it represents the worst-case scenario, indicating the maximum output of the LED. This means that the LED emits 8 milliwatts of optical power per steradian<sup>2</sup> when operated at a forward current of 20 mA. Since the LED is limited to 2.4 mA due to the board design, and the datasheet indicates that the radiation intensity decreases linearly, we can calculate the adjusted radiation intensity as follows:
+**Radiation Intensity:** Min 3, Max 8 $$\frac{\text{mW}}{\text{sr}}$$
+I choose 8 $$\frac{\text{mW}}{\text{sr}}$$ as it represents the worst-case scenario, indicating the maximum output of the LED. This means that the LED emits 8 milliwatts of optical power per steradian<sup>2</sup> when operated at a forward current of 20 mA. Since the LED is limited to 2.4 mA due to the board design, and the datasheet indicates that the radiation intensity decreases linearly, we can calculate the adjusted radiation intensity as follows:
 
   $$
-  \text{Adjusted Radiation Intensity} = \frac{8 \ \frac{\text{mW}}{\text{sr}} \times 2.4 \ \text{mA}}{20 \ \text{mA}} = 0.96 \ \text{mW/sr}
+  \text{Adjusted Radiation Intensity} = \frac{8 \ \frac{\text{mW}}{\text{sr}} \times 2.4 \ \text{mA}}{20 \ \text{mA}} = 0.96 \ \frac{\text{mW}}{\text{sr}}}
   $$
 
   <br/><br/>
