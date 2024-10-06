@@ -49,7 +49,7 @@ Regarding harmful exposure limits for infrared radiation with wavelengths rangin
   > + For times greater than **1000 s**, the limit becomes:
   > 
   > $$
-  > E_{IR} = \sum_{780}^{3000} E_{\lambda} \cdot \Delta \lambda \leq 100 \, \quad\quad [\frac{\text{W}}{\text{m}^2}] \quad \quad \text{for } (t > 1000 \, \text{s})
+  > E_{IR} = \sum_{780}^{3000} E_{\lambda} \cdot \Delta \lambda \leq 100 \ \quad\quad [\frac{\text{W}}{\text{m}^2}] \quad \quad \text{for } (t > 1000 \ \text{s})
   > $$
   > 
   > Where:
@@ -61,7 +61,7 @@ Regarding harmful exposure limits for infrared radiation with wavelengths rangin
 This formula itself isn't of primary interest to us. What is far more relevant is the limit it sets:
 
 $$
-E_{IR} \leq 100 \ \frac{\text{W}}{\text{m}^2} = 10 \ \frac{\text{mW}}{\text{cm}^2}  \quad\quad \text{ for } (t > 1000 \, \text{s})
+E_{IR} \leq 100 \ \frac{\text{W}}{\text{m}^2} = 10 \ \frac{\text{mW}}{\text{cm}^2}  \quad\quad \text{ for } (t > 1000 \ \text{s})
 $$
 
 <br/><br/>
@@ -79,7 +79,7 @@ The following can be extracted from the LED datasheet:
 I choose 8 mW/sr as it represents the worst-case scenario, indicating the maximum output of the LED. This means that the LED emits 8 milliwatts of optical power per steradian<sup>2</sup> when operated at a forward current of 20 mA. Since the LED is limited to 2.4 mA due to the board design, and the datasheet indicates that the radiation intensity decreases linearly, we can calculate the adjusted radiation intensity as follows:
 
   $$
-  \text{Adjusted Radiation Intensity} = \left( \frac{8 \, \text{mW/sr} \times 2.4 \, \text{mA}}{20 \, \text{mA}} \right) = 0.96 \, \text{mW/sr}
+  \text{Adjusted Radiation Intensity} = \left( \frac{8 \ \text{mW/sr} \times 2.4 \ \text{mA}}{20 \ \text{mA}} \right) = 0.96 \ \text{mW/sr}
   $$
 
   <br/><br/>
@@ -126,7 +126,7 @@ $$
 Next, we simplify the calculation:
 
 $$
-Ω = 2\pi \times 0.5 = \pi \ \text{[sr]}
+Ω = 2\pi \times 0.5 = \pi \ \text{sr}
 $$
 
 <br/><br/>
@@ -138,7 +138,7 @@ A = r^2 \cdot Ω
 $$
 
 <br/><br/>
-We have already calculated the solid angle \(Ω\) for the emission angle of $$\(120^\circ\)$$, which is $$\(π \ \text{[sr]}\)$$.
+We have already calculated the solid angle \(Ω\) for the emission angle of $$\(120^\circ\)$$, which is $$\(π \ \text{sr}\)$$.
 
 A distance between the eye and the LED of r = 1 cm is assumed, but even 0.5 cm meets the standards.
 
@@ -148,9 +148,17 @@ $$
 A = 1 \, \text{cm}^2 \cdot π
 $$
 
-Since \(π \approx 3.14\), we get:
-
 $$
-A \approx 1 \cdot 3.14 \, \text{cm}^2 \approx 3.14 \, \text{cm}^2
+A \approx 1 \cdot 3.14 \ \text{cm}^2 \approx 3.14 \ \text{cm}^2
 $$
 
+<br/><br/>
+These 3.14 cm² describe the area that the IR radiation covers at a distance of 1 cm from the LED, independent of the size of the eye. Since the LEDs are positioned on the outside of the eye, a significant portion of the radiation is already lost to the sides. Additionally, the surface area of the eye is much smaller than 3.14 cm². Consequently, the eye receives only a fraction of the radiation distributed over the 3.14 cm² area. However, since we are calculating based on the worst-case scenario, we will use the entire area for our calculations.
+
+If you've been paying attention, you might wonder: Why don't I use the smaller area that hits the eye, which would result in a much higher calculated power per cm² and could potentially exceed safe limits?
+
+While this is a valid point, it only holds true when considering distance. At shorter distances, the light cone narrows, concentrating the radiation on a smaller area and thereby increasing the density, essentially scaling it.
+
+However, in my calculations, I do not scale the radiation. Instead, I consider the total area of 3.14 cm², from which only a small fraction actually reaches the eye. For example, only about 0.14 cm² may illuminate the eye, while the remaining area dissipates into the environment. If I were to calculate using just 0.14 cm², it would inaccurately suggest that all the radiation concentrates on that small area, overlooking the significant portion that is lost.
+<br/><br/>
+<br/><br/>
