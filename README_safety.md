@@ -95,12 +95,26 @@ The 2013 paper can be found here: [Visible_Infrared_2013](https://www.icnirp.org
 >E_{IR}^{EL} = 100 \ \frac{\text{W}}{\text{m}^2} = 10 \ \frac{\text{mW}}{\text{cm}^2} \quad \text{for} \ t \geq 1000 \ \text{s}
 >\quad\quad \text{(21)}
 >$$
-
-
-
-
-
+>
 <br/><br/>
+
+### Contextualization
+To better contextualize these values, I would like to provide some examples to serve as reference points.
+
+When outdoors and not looking directly at the sun, the eyes receive a radiation level between 0.1 and 1 mW/cm² (some studies even suggest values up to 10 mW/cm²). However, when looking directly at the sun, the value far exceeds 100 mW/cm².
+
+Steel or glass workers operating near furnaces are exposed to radiation levels ranging from 80 to 400 mW/cm².
+
+Sources: [ICNIRPinfrared (Page 637)](https://www.icnirp.org/cms/upload/publications/ICNIRPinfrared.pdf); [Observing the Sun in Safety](https://adsabs.harvard.edu/full/1982JBAA...92..257M); [How to Tell if your Eye-Tracking IR Diode is Safe](https://blog.davidbramsay.com/how-to-tell-if-your-eye-tracking-ir-diode-is-safe/#:~:text=Roughly%2C%20background%20IR%20from%20sun,cm2%20for%20metal%20workers.);
+<br/><br/>
+
+All these values cannot be precisely determined, as they are influenced by countless uncontrollable factors, including temperature, pupil size, and many others.
+
+However, it is important that the intensity reaching the eyes remains far below 10 mW/cm², ideally as close as possible to the "normal" background IR radiation of approximately 1 mW/cm².
+
+
+
+
 <br/><br/>
 ## Calculations
 ### Datasheet
