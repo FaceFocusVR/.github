@@ -38,9 +38,21 @@ My goal with the project is to contribute to the broader adoption of face tracki
 <br/><br/>
 
 ## Is it safe?:
-  + Short version: No system is 100% secure, but I’ve done everything possible to protect both the hardware where the mainboard is installed, the mainboard itself, and of course, your eyes.
-    
-  * Detailed explanation of the technical safety features: Safety
+**I have tried Everything I can to make FaceFokusVR as safe as possible, but I do not take responsibility for any damage incurred by the use of it.**
+<br/><br/>
+
+  + No system is 100% secure! However, I have implemented multiple safety mechanisms to ensure the IR LEDs emit only limited radiation, well below the limits established by recognized studies on safe exposure levels.
+
+  + Do not attempt to replace, repair, or disable any safety-related circuits or components yourself! Although we are exposed to infrared radiation daily, it can be harmful in excessive doses!
+
++ While I thoroughly check each IR LED I sell, the responsibility for safe usage ultimately lies with the user. Please pay attention to the following:
+  + If you feel any warmth on your eys during use, take a break and assess the situation.<sup>1</sup>
+  + If you experience excessive eye strain or short-term effects like dark spots or dry/warm eyes, stop immediately.
+<br/><br/>
+
+The limits established by recognized institutions for maximum IR radiation are $$10 \ \frac{\text{mW}}{\text{cm}^2}$$. The calculated output from the LEDs I use is $$1.22 \ \frac{\text{mW}}{\text{cm}^2}$$, which is significantly below this limit. This value is also comparable to the normal IR background radiation that eyes receive from the sun, approximately $$1 \ \frac{\text{mW}}{\text{cm}^2}$$.
+
+Detailed explanation of the technical safety features, studies, and calculations regarding safe exposure IR limits: [Safety](https://github.com/FaceFocusVR/.github/blob/main/README_safety.md)
 <br/><br/>
 
 ## Thank you:
