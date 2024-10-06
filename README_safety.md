@@ -119,7 +119,7 @@ However, it is important that the intensity reaching the eyes remains far below 
 ## Calculations
 ### Datasheet
 
-The following can be extracted from the LED datasheet:
+The following can be extracted from the [LED datasheet](https://www.lcsc.com/datasheet/lcsc_datasheet_2402181504_XINGLIGHT-XL-3216HIRC-850_C965891.pdf):
 
 **Radiation Intensity:** Min 3, Max 8 mW/sr  
 I choose 8 mW/sr as it represents the worst-case scenario, indicating the maximum output of the LED. This means that the LED emits 8 milliwatts of optical power per steradian<sup>2</sup> when operated at a forward current of 20 mA. Since the LED is limited to 2.4 mA due to the board design, and the datasheet indicates that the radiation intensity decreases linearly, we can calculate the adjusted radiation intensity as follows:
