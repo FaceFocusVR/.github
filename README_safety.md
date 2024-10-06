@@ -45,7 +45,7 @@ The **EN 62471** is a European standard that provides guidelines for assessing t
 
 Regarding harmful exposure limits for infrared radiation with wavelengths ranging from 780 nm to 3000 nm, the standard states:
 <br/><br/>
-  > + To avoid thermal injury of the cornea and possible delayed effects upon the lens of the eye (cataractogenesis), ocular exposure to infrared radiation (EIR) over the wavelength range of **780 nm to 3000 nm** should be considered. [EN 62471 Page 41]
+  > + To avoid thermal injury of the cornea and possible delayed effects upon the lens of the eye (cataractogenesis), ocular exposure to infrared radiation (EIR) over the wavelength range of **780 nm to 3000 nm** should be considered. [EN 62471 Page 41 4.3.7]
   > + For times greater than **1000 s**, the limit becomes:
   > 
   > $$
