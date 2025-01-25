@@ -9,7 +9,7 @@ My goal with this project is to encourage the broader adoption of face and espec
 
 ## Quicklinks:
   + Everything you need: [Project Website](https://facefocusvr.com/)
-  + Get FaceFocusVR Hardware: [How To Buy / DIY](https://facefocusvr.com/store/)
+  + Get FaceFocusVR Hardware: [Buy / DIY](https://facefocusvr.com/store/)
   + Need Support?: [Discord](https://facefocusvr.com/discord)
 <br/><br/>
 <br/><br/>
